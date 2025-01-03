@@ -14,6 +14,8 @@ Date structure holds Year, Month and Day information
 ### 3. DateTime
 Similar functionality as Date, but also includes Hour, Minute, Second, and TimeZone.
 
+### 4. TimeDelta
+A generic model for representing difference between two TimeObjects
 
 ## Holiday Lists
 1. Empty
@@ -33,3 +35,5 @@ Similar functionality as Date, but also includes Hour, Minute, Second, and TimeZ
 1. TimeZone logic needs to be built
 2. DateTime equality needs to be included
 3. Expand the Holiday List to include more countries
+4. Expand on the DateTime Formats
+5. Expand on the available string parse for DateTime Format
